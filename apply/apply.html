@@ -1,0 +1,62 @@
+<html lang="en"></html>
+<link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
+<head></head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Applications</title>
+</head>
+<body>
+    <header>
+        <div class="header">
+            <h1>
+                <!--shows all the information at the top-->
+                <a href="../corses/corses.html" style="text-decoration:none; color:black; padding: 1vw; font-size: 1.5vw;">Courses</a>
+                <a href="../about_web/about_web.html" style="text-decoration:none; color:black; padding: 1vw; font-size: 1.5vw;">Dev team</a>
+                <a href="../specifications/specifications.html" style="text-decoration:none; color:black; padding: 1vw; font-size: 1.5vw;">specifications</a> 
+                <a href="../apply/apply.html" style="text-decoration:none; color:black; padding: 1vw; font-size: 1.5vw;">Applications</a>
+                <a href="../index.html" class="Cname" style="text-decoration:none; color:black; padding: 1vw;">Hot Beans Web</a>
+        </div>
+    </header>
+    <div class="apply_image">
+        <div id="after" class="hidden">
+            <h1>Thank you for submitting</h1>
+            <p>Your data has been sent over for us to look at and we will be in contact</p>
+        </div>
+        <div class="joinus">
+            <h1>We want you!!</h1>
+            <p>At our web development company, we offer a dynamic environment where you'll work on cutting-edge projects, collaborate with talented professionals, and continuously enhance your skills. 
+                By joining our team, you'll be part of a growing industry with limitless opportunities to innovate and make a meaningful impact on businesses and users across the globe.
+            </p>
+        </div>
+        <form class="applyform" id="form"  onsubmit="apply(event)">
+            <h1>Apply here</h1>
+            <br><br>
+            <div class="applyformb">
+                <label for="Aname">Enter your full name:</label><br>
+                <input type="text" id="Aname" name="Aname" required><br><br>
+                <label for="Aname">Enter your home adress:</label><br>
+                <input type="text" id="Aname" name="Aname" required><br><br>
+                <label for="Aname">Enter your email adress:</label><br>
+                <input type="text" id="Aname" name="Aname" required><br><br>
+                <label for="Aname">tell us about yourself:</label><br>
+                <input type="textbox" id="Aname" name="Aname" class="textbox" required><br><br>
+                <input type="submit" class="Asubmit" style="font-size: large; padding: 10px;">
+                <br><br>
+            </div>
+            <div class="applyforma">
+                <label for="Aname">Do you have access to transport? <br> if so what type?</label><br>
+                <input type="text" id="Aname" name="Aname" required><br><br>
+                <p>Do you have the right to work in the UK?</p>
+                <label class="switch"><br>
+                <input type="checkbox"required>
+                <span class="slider"></span></label><br><br>
+                <label for="Aname" style="position: absolute; right: 25%; left: 25%;">Upload your CV here:</label><br>
+                <input type="file" id="Aname" name="Aname" required><br><br>
+                <br><br>
+            </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

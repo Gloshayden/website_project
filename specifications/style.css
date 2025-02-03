@@ -1,0 +1,77 @@
+.header{
+    background-color: rgb(104, 104, 104);
+    padding: 1vw;
+    font-family:Arial, Helvetica, sans-serif;
+    z-index: 3;
+    position: fixed;
+    box-shadow:
+    0 0 20px 5px rgb(0, 0, 0);
+    top: 0px;
+    left: -1vw;
+    width: 100%;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+.footer{
+  background-color: rgb(0, 0, 0);
+  padding: 18px;
+  font-family:Arial, Helvetica, sans-serif;
+  position: sticky;
+  width: 97.75%;
+  top: 100%;
+  bottom: 0%;
+  height: fit-content;
+}
+
+.Cname {
+  font-size: 1.5vw;
+  text-align: right;
+  position: absolute;
+  top: 28px; right: 1vw; left: 70%;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+.main_image{
+  position: absolute;
+  top: 12%;
+  height: 120%;
+  width: 100.65%;
+  background-image: linear-gradient(0deg, rgb(255, 255, 255) 60%,rgba(0, 0, 0, 0)), url("specification_image.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.main_content {
+  font-family:Arial, Helvetica, sans-serif;
+  position: absolute;
+  top: 40%;
+  left: 5%;
+  right: 5%;
+  text-align: center;
+}
+.join {
+  position: absolute;
+  top: 250%;
+  left: 35%;
+  right: 35%;
+  font-size: 2vw;
+  padding: 30px;
+  background-color: rgb(85, 85, 240);
+  border-radius: 50px;
+  text-decoration: none;
+  color: black;
+}
+.employee {
+  position: absolute;
+  left: 10%;
+  font-size: 1.5vw;
+}
+.workex {
+  position: absolute;
+  right: 5%;
+  font-size: 1.5vw;
+}

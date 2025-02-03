@@ -1,0 +1,108 @@
+.header{
+    background-color: rgb(104, 104, 104);
+    padding: 1vw;
+    font-family:Arial, Helvetica, sans-serif;
+    z-index: 3;
+    position: fixed;
+    box-shadow:
+    0 0 20px 5px rgb(0, 0, 0);
+    top: 0px;
+    left: -1vw;
+    width: 100%;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+.footer{
+  background-color: rgb(0, 0, 0);
+  padding: 18px;
+  font-family:Arial, Helvetica, sans-serif;
+  position: sticky;
+  width: 97.75%;
+  top: 100%;
+  bottom: 0%;
+  height: fit-content;
+}
+
+.Cname {
+  font-size: 1.5vw;
+  text-align: right;
+  position: absolute;
+  top: 28px; right: 1vw; left: 70%;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+.login_image{
+  height: 120%;
+  width: 100.65%;
+  z-index: -5;
+  background-image: linear-gradient(0deg, rgb(255, 255, 255) 50%,rgba(0, 0, 0, 0)), url("login_image.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.quote {
+  position: absolute;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.400);
+  border-radius: 15px;
+  top: 25%;
+  left: 30%;
+  font-family:Georgia, serif;
+  font-size: 60px;
+  text-align: center;
+}
+.websites{
+  position: absolute;
+  top: 55%;
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-family:Arial, Helvetica, sans-serif;
+}
+.w3 {
+  background-color: rgb(158, 158, 158);
+  box-shadow:
+  0 0 20px 5px rgb(158, 158, 158);
+  margin: 5px;
+  border: 5px solid rgb(0,0,0);
+  border-radius: 20px;
+  position: absolute;
+  left: 5%;
+  width: 27%;
+  height: 20lvw;
+  text-decoration: none; 
+  color: rgb(0, 0, 0);
+}
+.fcc {
+  background-color: rgb(158, 158, 158);
+  box-shadow:
+  0 0 20px 5px rgb(158, 158, 158);
+  margin: 5px;
+  border: 5px solid rgb(0,0,0);
+  border-radius: 20px;
+  position: absolute;
+  left: 37%;
+  width: 27%;
+  height: 20lvw;
+  text-decoration: none; 
+  color: rgb(0,0,0);
+}
+.odin {
+  background-color: rgb(158, 158, 158);
+  box-shadow:
+  0 0 20px 5px rgb(158, 158, 158);
+  margin: 5px;
+  border: 5px solid rgb(0,0,0);
+  border-radius: 20px;
+  border-radius: 20px;
+  position: absolute;
+  left: 68%;
+  width: 27%;
+  height: 20lvw;
+  text-decoration: none; 
+  color: rgb(0,0,0);
+}
